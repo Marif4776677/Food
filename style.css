@@ -1,0 +1,252 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 40px;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+
+#order {
+  background-color: #f4fafb;
+}
+#order .box h1 {
+  font-weight: 700;
+  font-size: 68px;
+  margin-right: 80px;
+}
+#order .box span {
+  color: #37b7c3;
+}
+#order .box h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#order .box .btn {
+  padding: 13px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #38b6c1;
+  color: white;
+}
+#order .box .imgbox {
+  width: 120px;
+  margin: 20px 0 10px;
+}
+#order .box h4 {
+  font-size: 20px;
+}
+
+#products {
+  background-color: #f1f8f9;
+}
+#products .textbox h1 {
+  color: #36b3bd;
+  font-size: 60px;
+  font-weight: 700;
+  width: 400px;
+}
+#products .textbox h3 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#products .textbox .btn {
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#products .imgbox {
+  width: 520px;
+}
+
+#howitworks h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+  margin-bottom: 60px;
+}
+#howitworks .box .imgbox {
+  width: 350px;
+}
+#howitworks .box .textbox {
+  padding: 35px 55px;
+}
+#howitworks .box h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+#howitworks .box h4 {
+  font-size: 20px;
+  color: #676f8b;
+  line-height: 1.3;
+}
+
+#browseourmenu .textbox {
+  width: 500px;
+  text-align: center;
+}
+#browseourmenu .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #3cc1d8;
+}
+#browseourmenu .textbox h4 {
+  font-size: 20px;
+  color: #6c7480;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+#browseourmenu .textbox h4 span {
+  color: #3cc1d8;
+  text-decoration-line: underline;
+}
+#browseourmenu .btn {
+  font-size: 18px;
+  border: 0.5px solid #bdbdbd;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+#browseourmenu .bgc {
+  background-color: #3cc1d8;
+  color: white;
+}
+#browseourmenu .box {
+  padding: 30px;
+}
+#browseourmenu .box .imgbox {
+  width: 150px;
+  border-radius: 10px;
+}
+#browseourmenu .box .textbox {
+  text-align: left;
+  width: auto;
+  margin-left: 20px;
+}
+#browseourmenu .box .textbox .minibox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#browseourmenu .box .textbox .minibox h5 {
+  color: #3cc1d8;
+  font-size: 18px;
+}
+#browseourmenu .box .textbox p {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(35, 47, 66, 0.5215686275);
+}
+#browseourmenu .box .textbox .add {
+  display: flex;
+}
+#browseourmenu .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#browseourmenu .box .textbox .add .btn {
+  background-color: #3cc1d8;
+  color: white;
+  padding: 7px 20px;
+}
+#browseourmenu .menu {
+  padding: 17px 53px;
+  margin-top: 50px;
+}
+
+#orderonline h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#orderonline h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#orderonline .btn {
+  color: white;
+  font-size: 20px;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  border-radius: 5px;
+}
+#orderonline .imgbox {
+  width: 600px;
+}
+
+#call {
+  background-color: #f1f8f9;
+}
+#call .textbox h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#call .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#call .textbox .btn {
+  font-size: 20px;
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+}
+#call .imgbox {
+  width: 500px;
+}
+
+#support .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+}
+#support .bgc {
+  background-color: #35b6c1;
+}/*# sourceMappingURL=style.css.map */
