@@ -109,6 +109,9 @@ header nav .home-color {
   line-height: 1.3;
 }
 
+#browseourmenu {
+  background-color: #f5fbfc;
+}
 #browseourmenu .textbox {
   width: 500px;
   text-align: center;
@@ -140,6 +143,7 @@ header nav .home-color {
   color: white;
 }
 #browseourmenu .box {
+  background-color: #ffffff;
   padding: 30px;
 }
 #browseourmenu .box .imgbox {
@@ -170,7 +174,7 @@ header nav .home-color {
 }
 #browseourmenu .box .textbox .add input {
   border: 1px solid #e1e1e1;
-  background-color: #e9e9e9;
+  background-color: #f5fbfc;
   width: 50px;
 }
 #browseourmenu .box .textbox .add .btn {
