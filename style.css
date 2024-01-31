@@ -112,72 +112,59 @@ header nav .home-color {
 #browseourmenu {
   background-color: #f5fbfc;
 }
-#browseourmenu .textbox {
-  width: 500px;
-  text-align: center;
-}
-#browseourmenu .textbox h1 {
+#browseourmenu .col-md-12 .textbox h1 {
   font-weight: 700;
   font-size: 60px;
   color: #3cc1d8;
 }
-#browseourmenu .textbox h4 {
+#browseourmenu .col-md-12 .textbox h4 {
   font-size: 20px;
   color: #6c7480;
   margin: 20px 0;
   line-height: 1.2;
 }
-#browseourmenu .textbox h4 span {
+#browseourmenu .col-md-12 .textbox h4 span {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browseourmenu .btn {
+#browseourmenu .col-lg-12 .box .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px 46px;
   margin: 0 20px;
   border-radius: 5px;
 }
-#browseourmenu .bgc {
+#browseourmenu .col-lg-12 .box .bgc {
   background-color: #3cc1d8;
   color: white;
 }
-#browseourmenu .box {
+#browseourmenu .col-lg-6 .box {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 20px;
 }
-#browseourmenu .box .imgbox {
-  width: 150px;
+#browseourmenu .col-lg-6 .box .imgbox {
   border-radius: 10px;
 }
-#browseourmenu .box .textbox {
-  text-align: left;
-  width: auto;
-  margin-left: 20px;
-}
-#browseourmenu .box .textbox .minibox h2 {
+#browseourmenu .col-lg-6 .box .textbox .minibox h2 {
   font-size: 22px;
   font-weight: 700;
 }
-#browseourmenu .box .textbox .minibox h5 {
+#browseourmenu .col-lg-6 .box .textbox .minibox h5 {
   color: #3cc1d8;
   font-size: 18px;
 }
-#browseourmenu .box .textbox p {
+#browseourmenu .col-lg-6 .box .textbox p {
   margin: 15px 0;
-  font-size: 18px;
   line-height: 1.2;
   color: rgba(35, 47, 66, 0.5215686275);
 }
-#browseourmenu .box .textbox .add {
-  display: flex;
-}
-#browseourmenu .box .textbox .add input {
+#browseourmenu .col-lg-6 .box .textbox .add input {
   border: 1px solid #e1e1e1;
   background-color: #f5fbfc;
   width: 50px;
+  margin-right: 10px;
 }
-#browseourmenu .box .textbox .add .btn {
+#browseourmenu .col-lg-6 .box .textbox .add .btn {
   background-color: #3cc1d8;
   color: white;
   padding: 7px 20px;
@@ -185,6 +172,11 @@ header nav .home-color {
 #browseourmenu .menu {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media (max-width: 576px) {
+  #browseourmenu .imgbox {
+    width: 100%;
+  }
 }
 
 #orderonline h1 {
