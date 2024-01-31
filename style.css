@@ -67,7 +67,6 @@ header nav .home-color {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
-  width: 400px;
 }
 #products .textbox h3 {
   color: #676f8b;
@@ -82,18 +81,12 @@ header nav .home-color {
   font-size: 20px;
   border-radius: 5px;
 }
-#products .imgbox {
-  width: 520px;
-}
 
 #howitworks h1 {
   font-weight: 700;
   font-size: 60px;
   color: #36b3bd;
   margin-bottom: 60px;
-}
-#howitworks .box .imgbox {
-  width: 350px;
 }
 #howitworks .box .textbox {
   padding: 35px 55px;
@@ -173,14 +166,19 @@ header nav .home-color {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media (max-width: 576px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  #browseourmenu .imgbox {
+    width: 150px;
+  }
+}
+@media (max-width: 575px) {
   #browseourmenu .imgbox {
     width: 100%;
   }
 }
 
 #orderonline h1 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
   color: #36b3bd;
 }
@@ -196,9 +194,6 @@ header nav .home-color {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
-}
-#orderonline .imgbox {
-  width: 600px;
 }
 
 #call {
@@ -220,9 +215,6 @@ header nav .home-color {
   color: white;
   background-color: #38b6c1;
   padding: 13px 34px;
-}
-#call .imgbox {
-  width: 500px;
 }
 
 #support .textbox h1 {
