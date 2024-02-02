@@ -28,6 +28,19 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
+header .btn {
+  background-color: #f2f2f4;
+}
+@media (max-width: 991px) {
+  header nav {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  header .btn {
+    display: none;
+  }
+}
 
 #order {
   background-color: #f4fafb;
