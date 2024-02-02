@@ -249,4 +249,9 @@ header .btn {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media (max-width: 992px) {
+  #support .imgbox {
+    height: 380px;
+  }
 }/*# sourceMappingURL=style.css.map */
