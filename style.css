@@ -185,6 +185,11 @@ header .btn {
     width: 150px;
   }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+  #browseourmenu .col-lg-12 .box .btn {
+    margin: 5px 20px;
+  }
+}
 @media (max-width: 575px) {
   #browseourmenu .imgbox {
     width: 100%;
