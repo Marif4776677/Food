@@ -47,7 +47,7 @@ header .btn {
 }
 #order .textbox h1 {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 68px;
 }
 #order .textbox span {
   color: #37b7c3;
@@ -180,18 +180,27 @@ header .btn {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) {
   #browseourmenu .imgbox {
+    align-self: center;
     width: 150px;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  #browseourmenu .imgbox {
+    align-self: flex-start;
+    width: 125px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   #browseourmenu .col-lg-12 .box .btn {
-    margin: 5px 20px;
+    width: 200px;
+    margin: 5px 10px;
   }
 }
 @media (max-width: 575px) {
   #browseourmenu .imgbox {
+    align-self: start;
     width: 100%;
   }
   #browseourmenu .col-lg-12 .box .btn {
