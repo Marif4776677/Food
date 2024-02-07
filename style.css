@@ -182,7 +182,7 @@ header .btn {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browseourmenu .col-12 .box .btn {
+#browseourmenu .col-md-12 .box .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px;
@@ -197,6 +197,8 @@ header .btn {
 #browseourmenu .col-lg-6 .box {
   background-color: #ffffff;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 #browseourmenu .col-lg-6 .box .imgbox {
   border-radius: 10px;
@@ -235,6 +237,11 @@ header .btn {
     width: 150px;
   }
 }
+@media (min-width: 768px) {
+  #browseourmenu .col-lg-6 .box {
+    flex-direction: row;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   #browseourmenu .imgbox {
     align-self: flex-start;
@@ -242,10 +249,10 @@ header .btn {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  #browseourmenu .col-12 .box {
+  #browseourmenu .col-md-12 .box {
     width: 100%;
   }
-  #browseourmenu .col-12 .box .btn {
+  #browseourmenu .col-md-12 .box .btn {
     width: 225px;
     margin: 5px 15px;
   }
@@ -255,7 +262,7 @@ header .btn {
     align-self: start;
     width: 100%;
   }
-  #browseourmenu .col-12 .box .btn {
+  #browseourmenu .col-md-12 .box .btn {
     margin: 10px 20px;
     width: 100%;
   }
