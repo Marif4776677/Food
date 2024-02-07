@@ -203,7 +203,16 @@ header .btn {
 #browseourmenu .col-lg-6 .box .imgbox {
   border-radius: 10px;
 }
+#browseourmenu .col-lg-6 .box .textbox {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#browseourmenu .col-lg-6 .box .textbox .minibox {
+  display: flex;
+  flex-direction: column;
+}
 #browseourmenu .col-lg-6 .box .textbox .minibox h2 {
+  margin-bottom: 16px;
   font-size: 22px;
   font-weight: 700;
 }
@@ -238,8 +247,17 @@ header .btn {
   }
 }
 @media (min-width: 768px) {
+  #browseourmenu .minibox {
+    flex-direction: row;
+  }
+  #browseourmenu .minibox h2 {
+    margin-bottom: 0;
+  }
   #browseourmenu .col-lg-6 .box {
     flex-direction: row;
+  }
+  #browseourmenu .col-lg-6 .box .textbox {
+    padding-left: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

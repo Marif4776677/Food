@@ -35,8 +35,13 @@
             .imgbox
                 border-radius: 10px
             .textbox
+                margin-top: 16px
+                margin-bottom: 16px
                 .minibox
+                    display: flex
+                    flex-direction: column
                     h2
+                        margin-bottom: 16px
                         font-size: 22px
                         font-weight: 700
                     h5
@@ -66,9 +71,15 @@
             align-self: center
             width: 150px
     @media (min-width: 768px)
+        .minibox
+            flex-direction: row
+            h2
+                margin-bottom: 0
         .col-lg-6
             .box
                 flex-direction: row
+                .textbox
+                    padding-left: 16px
     @media (min-width: 768px) and (max-width: 991px)
         .imgbox
             align-self: flex-start
