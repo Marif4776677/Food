@@ -182,7 +182,7 @@ header .btn {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browseourmenu .col-md-12 .box .btn {
+#browseourmenu .mainbox .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px;
@@ -267,10 +267,10 @@ header .btn {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  #browseourmenu .col-md-12 .box {
+  #browseourmenu .col-md-12 .mainbox {
     width: 100%;
   }
-  #browseourmenu .col-md-12 .box .btn {
+  #browseourmenu .col-md-12 .mainbox .btn {
     width: 225px;
     margin: 5px 15px;
   }
@@ -280,7 +280,7 @@ header .btn {
     align-self: start;
     width: 100%;
   }
-  #browseourmenu .col-md-12 .box .btn {
+  #browseourmenu .col-md-12 .mainbox .btn {
     margin: 10px 20px;
     width: 100%;
   }
